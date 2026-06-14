@@ -1,0 +1,269 @@
+window.PRESENTATION_CONTENT={
+  "brand": {
+    "name": "نمو",
+    "nameEn": "Nomoo",
+    "tagline": "نمو للابتكار الرقمي | نصنع مستقبل التجارة الرقمية",
+    "taglineEn": "Nomoo Digital Innovation | Building the Future of Digital Commerce",
+    "copyrightAr": "© جميع الحقوق محفوظة لشركة نمو",
+    "copyrightEn": "© All rights reserved to Nomoo",
+    "color": "8A1538",
+    "contact": {
+      "phone": "+966 500 000 000",
+      "email": "info@nomoo.ai",
+      "website": "www.nomoo.ai"
+    }
+  },
+  "slides": [
+    {
+      "id": "hero",
+      "titleAr": "Try It First",
+      "titleEn": "Try It First",
+      "subProductAr": "جرّبه عليك",
+      "subProductEn": "Try It On You",
+      "subProductTagAr": "حل المعاينة للملابس — للمتاجر الإلكترونية",
+      "subProductTagEn": "Virtual try-on for apparel — for online stores",
+      "subtitleAr": "جرّب المنتج **على نفسك** **قبل الشراء**",
+      "subtitleEn": "Try the product **on yourself** **before you buy**",
+      "descAr": "حل من **نمو** يُمكّن عملاء متجرك من رؤية المنتج **على أنفسهم** **قبل** إتمام الشراء — عبر **الذكاء الاصطناعي** و**الواقع المعزز**.",
+      "descEn": "A **Nomoo** solution that lets your customers see products **on themselves** **before** checkout — powered by **AI** and **AR**."
+    },
+    {
+      "id": "problem",
+      "titleAr": "لماذا تحتاجه؟",
+      "titleEn": "Why you need it",
+      "headingAr": "المشكلة التي يعاني منها **متجرك**",
+      "headingEn": "The problem **your store** faces",
+      "subheadingAr": "**فجوة الثقة** في التسوق الإلكتروني",
+      "subheadingEn": "The **trust gap** in e-commerce",
+      "descAr": "العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، يُرجع، أو يذهب لم competitor.",
+      "descEn": "Customers can't **imagine the product** before buying — they hesitate, return, or leave.",
+      "challengesLabelAr": "التحديات",
+      "challengesLabelEn": "Key challenges",
+      "solutionAr": "**Try It First** يحوّل **التخمين** إلى **ثقة** — ويزيد **التحويل** ويقلّ **الإرجاع**.",
+      "solutionEn": "**Try It First** turns **guesswork** into **confidence** — boosting **conversions** and cutting **returns**.",
+      "items": [
+        {
+          "titleAr": "تردد العميل قبل إتمام الطلب",
+          "titleEn": "Customer hesitation at checkout"
+        },
+        {
+          "titleAr": "ارتفاع معدلات الإرجاع والاستبدال",
+          "titleEn": "High return and exchange rates"
+        },
+        {
+          "titleAr": "صعوبة تميّز المتجر عن المنافسين",
+          "titleEn": "Hard to stand out from competitors"
+        },
+        {
+          "titleAr": "تجربة تسوق تقليدية تعتمد على صور ثابتة",
+          "titleEn": "Static photos limit the shopping experience"
+        }
+      ]
+    },
+    {
+      "id": "howItWorks",
+      "titleAr": "كيف يعمل",
+      "titleEn": "How it works",
+      "headingAr": "كيف يظهر **في متجرك**؟",
+      "headingEn": "How it appears **in your store**?",
+      "descAr": "زر **«شاهد كيف يبدو عليك»** يظهر مباشرة **أسفل إضافة للسلة** — بدون تغيير تجربة المتجر.",
+      "descEn": "A **«See how it looks on you»** button appears **below Add to Cart** — no disruption to your store.",
+      "buttonLabelAr": "شاهد كيف يبدو عليك",
+      "buttonLabelEn": "See how it looks on you",
+      "goalAr": "من **صورة المنتج** إلى **معاينة واقعية** خلال **ثوانٍ**.",
+      "goalEn": "From **product photo** to **realistic preview** in **seconds**.",
+      "steps": [
+        {
+          "num": "1",
+          "titleAr": "شاهد كيف يبدو عليك",
+          "titleEn": "See how it looks on you",
+          "descAr": "العميل يضغط الزر في **صفحة المنتج**.",
+          "descEn": "Customer taps the button on the **product page**.",
+          "isCta": true
+        },
+        {
+          "num": "2",
+          "titleAr": "رفع صورة",
+          "titleEn": "Upload photo",
+          "descAr": "التقاط أو اختيار **صورة شخصية**.",
+          "descEn": "Take or upload a **personal photo**."
+        },
+        {
+          "num": "3",
+          "titleAr": "معاينة AI",
+          "titleEn": "AI preview",
+          "descAr": "**الذكاء الاصطناعي** يدمج المنتج **بشكل واقعي**.",
+          "descEn": "**AI** merges the product **realistically**."
+        },
+        {
+          "num": "4",
+          "titleAr": "قرار الشراء",
+          "titleEn": "Purchase",
+          "descAr": "مقارنة **الألوان** والانتقال للسلة **بثقة**.",
+          "descEn": "Compare **colors** and checkout with **confidence**."
+        }
+      ]
+    },
+    {
+      "id": "demo",
+      "titleAr": "معاينة حية",
+      "titleEn": "Live demo",
+      "headingAr": "جرّب **الآن** — مثال **الشال اليمني**",
+      "headingEn": "Try it **now** — **Yemeni shawl** example",
+      "descAr": "اضغط **«شاهد كيف يبدو عليك»** أو على بطاقة المنتج لترى تحويل **أخضر → كحلي** بالذكاء الاصطناعي.",
+      "descEn": "Click **«See how it looks on you»** or the product card to see **green → navy** AI transformation.",
+      "tipsAr": [
+        "تجربة **ألوان متعددة**",
+        "معاينة **واقعية على الشخص**",
+        "جاهز للدمج في **متجرك**"
+      ],
+      "tipsEn": [
+        "Try **multiple colors**",
+        "**Realistic** on-person preview",
+        "Ready to integrate in **your store**"
+      ]
+    },
+    {
+      "id": "value",
+      "titleAr": "القيمة",
+      "titleEn": "Value",
+      "headingAr": "ماذا **يربح متجرك**؟",
+      "headingEn": "What **your store** gains",
+      "storeLabelAr": "للمتجر",
+      "storeLabelEn": "For your store",
+      "customerLabelAr": "للعميل",
+      "customerLabelEn": "For your customer",
+      "sectorsLabelAr": "وليس للملابس فقط — يخدم أيضاً:",
+      "sectorsLabelEn": "Not just apparel — also serves:",
+      "storeItems": [
+        {
+          "titleAr": "زيادة التحويلات",
+          "titleEn": "Higher conversions",
+          "descAr": "المزيد من الزوار يصبحون **مشترين**.",
+          "descEn": "More visitors become **buyers**."
+        },
+        {
+          "titleAr": "تقليل الإرجاع",
+          "titleEn": "Fewer returns",
+          "descAr": "العميل يعرف ما سيحصل عليه **مسبقاً**.",
+          "descEn": "Customers know what they get **beforehand**."
+        },
+        {
+          "titleAr": "تميّز تنافسي",
+          "titleEn": "Competitive edge",
+          "descAr": "تجربة **حديثة** لا توفرها **معظم المتاجر**.",
+          "descEn": "A **modern** experience **most stores** lack."
+        },
+        {
+          "titleAr": "زيادة متوسط الطلب",
+          "titleEn": "Higher order value",
+          "descAr": "سهولة تجربة **منتجات إضافية**.",
+          "descEn": "Easy to try **more products**."
+        }
+      ],
+      "customerItems": [
+        {
+          "titleAr": "ثقة قبل الشراء",
+          "titleEn": "Pre-purchase confidence",
+          "descAr": "رؤية المنتج **قبل الدفع**.",
+          "descEn": "See the product **before paying**."
+        },
+        {
+          "titleAr": "تجربة تفاعلية",
+          "titleEn": "Interactive experience",
+          "descAr": "بدلاً من **صور ثابتة**.",
+          "descEn": "Beyond **static photos**."
+        }
+      ],
+      "sectors": [
+        {
+          "titleAr": "أزياء",
+          "titleEn": "Fashion"
+        },
+        {
+          "titleAr": "أثاث",
+          "titleEn": "Furniture"
+        },
+        {
+          "titleAr": "إكسسوارات",
+          "titleEn": "Accessories"
+        },
+        {
+          "titleAr": "تجميل",
+          "titleEn": "Beauty"
+        },
+        {
+          "titleAr": "تراث",
+          "titleEn": "Heritage"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "titleAr": "ابدأ مع نمو",
+      "titleEn": "Start with Nomoo",
+      "headingAr": "ابدأ **مع نمو**",
+      "headingEn": "Start **with Nomoo**",
+      "subheadingAr": "من **صورة ثابتة** إلى **تجربة حقيقية**",
+      "subheadingEn": "From **static photo** to **real experience**",
+      "descAr": "انضم للمتاجر التي **تعيد تعريف** تجربة الشراء عبر الإنترنت.",
+      "descEn": "Join stores **redefining** the online buying experience.",
+      "badgeAr": "Try It First",
+      "badgeEn": "Try It First",
+      "ctaAr": "جرّب قبل أن تشتري",
+      "ctaEn": "Try before you buy",
+      "buttonAr": "تواصل معنا",
+      "buttonEn": "Contact us"
+    }
+  ],
+  "demo": {
+    "titleAr": "جرب المعاينة الافتراضية",
+    "titleEn": "Try Virtual Preview",
+    "clothingAr": "ملابس",
+    "clothingEn": "Clothing",
+    "furnitureAr": "أثاث",
+    "furnitureEn": "Furniture",
+    "pieces": {
+      "shawl": {
+        "ar": "شال يمني",
+        "en": "Yemeni Shawl"
+      },
+      "top": {
+        "ar": "فنيلة / ثوب",
+        "en": "Thobe / Top"
+      },
+      "pants": {
+        "ar": "بنطال / حزام",
+        "en": "Pants / Belt"
+      }
+    },
+    "styles": {
+      "gulf": {
+        "ar": "خليجي",
+        "en": "Gulf"
+      },
+      "omani": {
+        "ar": "عماني",
+        "en": "Omani"
+      },
+      "shoulder": {
+        "ar": "فوق الكتف",
+        "en": "Over-Shoulder"
+      }
+    },
+    "furniture": {
+      "sofa": {
+        "ar": "كنبة",
+        "en": "Sofa"
+      },
+      "table": {
+        "ar": "طاولة",
+        "en": "Table"
+      },
+      "carpet": {
+        "ar": "سجادة",
+        "en": "Carpet"
+      }
+    }
+  }
+};

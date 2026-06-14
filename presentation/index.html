@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المعاينة الافتراضية | Virtual Try-On — Nomoo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="demo.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['IBM Plex Sans Arabic', 'Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: '#1D1D1F',
+            accent: '#9A7B4F',
+            surface: '#FAFAFA',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body { font-family: 'IBM Plex Sans Arabic', 'Inter', system-ui, sans-serif; background: #FAFAFA; color: #1D1D1F; overflow: hidden; font-feature-settings: 'ss01' on; -webkit-font-smoothing: antialiased; }
+    html[dir="ltr"] body { font-family: 'Inter', 'IBM Plex Sans Arabic', system-ui, sans-serif; }
+    h1, h2, h3, .piece-tab, .product-card-label { font-weight: 700; letter-spacing: -0.01em; }
+    #scroll-container { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+    .slide { scroll-snap-align: start; scroll-snap-stop: always; min-height: 100vh; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes spinSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes pulseSoft { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+    @keyframes swap { 0% { opacity: 0; transform: scale(0.95); } 100% { opacity: 1; transform: scale(1); } }
+    @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+    @keyframes gradientShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+    .animate-fade-up { animation: fadeUp 0.7s ease-out; }
+    .animate-float { animation: float 3s ease-in-out infinite; }
+    .animate-spin-slow { animation: spinSlow 12s linear infinite; transform-origin: center; }
+    .animate-pulse-soft { animation: pulseSoft 2s ease-in-out infinite; }
+    .animate-swap { animation: swap 0.5s ease-out; }
+    .text-gradient {
+      color: #1D1D1F;
+    }
+    #nav-bar { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background: rgba(255,255,255,0.92); border-color: #E5E5EA; }
+  </style>
+</head>
+<body class="overflow-x-hidden">
+
+  <!-- Navigation Bar -->
+  <nav id="nav-bar" class="fixed top-0 inset-x-0 z-50 border-b border-stone-200 px-4 py-3">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center bg-stone-900 text-white font-bold text-lg">ن</div>
+        <span class="font-bold text-lg hidden sm:block text-stone-900">Nomoo</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="prev-slide" class="p-2 rounded-lg hover:bg-stone-100 transition text-stone-600" title="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div id="nav-dots" class="flex items-center gap-2"></div>
+        <button id="next-slide" class="p-2 rounded-lg hover:bg-stone-100 transition text-stone-600" title="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+      <div class="flex items-center gap-3">
+        <span id="slide-counter" class="text-sm text-stone-400 font-medium hidden sm:block">1 / 6</span>
+        <button id="lang-toggle" class="px-3 py-1.5 rounded-lg text-sm font-semibold border border-stone-200 hover:bg-stone-50 transition text-stone-700">
+          <span id="lang-label">EN</span>
+        </button>
+        <button onclick="document.documentElement.requestFullscreen()" class="p-2 rounded-lg hover:bg-stone-100 transition text-stone-600" title="Fullscreen">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slides -->
+  <div id="scroll-container">
+    <main id="slides" class="pt-16"></main>
+  </div>
+
+  <!-- Footer hint -->
+  <div class="fixed bottom-10 left-1/2 -translate-x-1/2 z-40 px-4 py-2 rounded-full bg-stone-900/75 text-white text-xs backdrop-blur-sm pointer-events-none opacity-70">
+    <span class="lang-ar">↑↓ للتنقل · F ملء الشاشة</span>
+  </div>
+
+  <!-- Copyright -->
+  <div id="site-copyright" class="fixed bottom-0 inset-x-0 z-40 py-2 text-center text-xs text-gray-400 bg-white/90 backdrop-blur-sm border-t border-gray-100 pointer-events-none">
+    © جميع الحقوق محفوظة لشركة نمو
+  </div>
+
+  <script src="content.js"></script>
+  <script src="male-tryon.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
