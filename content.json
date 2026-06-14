@@ -1,16 +1,16 @@
 {
   "brand": {
     "name": "نمو",
-    "nameEn": "Nomoo",
+    "nameEn": "Nuomo",
     "tagline": "نمو للابتكار الرقمي | نصنع مستقبل التجارة الرقمية",
-    "taglineEn": "Nomoo Digital Innovation | Building the Future of Digital Commerce",
+    "taglineEn": "Nuomo Digital Innovation | Building the Future of Digital Commerce",
     "copyrightAr": "© جميع الحقوق محفوظة لشركة نمو",
-    "copyrightEn": "© All rights reserved to Nomoo",
+    "copyrightEn": "© All rights reserved to Nuomo",
     "color": "8A1538",
     "contact": {
-      "phone": "+966 500 000 000",
-      "email": "info@nomoo.ai",
-      "website": "www.nomoo.ai"
+      "phone": "+201550644083",
+      "email": "a.sulmi24@gmail.com",
+      "website": "www.Nuomo.ai.com"
     }
   },
   "slides": [
@@ -25,7 +25,7 @@
       "subtitleAr": "جرّب المنتج **على نفسك** **قبل الشراء**",
       "subtitleEn": "Try the product **on yourself** **before you buy**",
       "descAr": "حل من **نمو** يُمكّن عملاء متجرك من رؤية المنتج **على أنفسهم** **قبل** إتمام الشراء — عبر **الذكاء الاصطناعي** و**الواقع المعزز**.",
-      "descEn": "A **Nomoo** solution that lets your customers see products **on themselves** **before** checkout — powered by **AI** and **AR**."
+      "descEn": "A **Nuomo** solution that lets your customers see products **on themselves** **before** checkout — powered by **AI** and **AR**."
     },
     {
       "id": "problem",
@@ -35,7 +35,7 @@
       "headingEn": "The problem **your store** faces",
       "subheadingAr": "**فجوة الثقة** في التسوق الإلكتروني",
       "subheadingEn": "The **trust gap** in e-commerce",
-      "descAr": "العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، يُرجع، أو يذهب لم competitor.",
+      "descAr": " العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، أو يُرجع المشتريات، أو يذهب للمنافسين.",
       "descEn": "Customers can't **imagine the product** before buying — they hesitate, return, or leave.",
       "challengesLabelAr": "التحديات",
       "challengesLabelEn": "Key challenges",
@@ -111,9 +111,9 @@
     {
       "id": "cta",
       "titleAr": "ابدأ مع نمو",
-      "titleEn": "Start with Nomoo",
+      "titleEn": "Start with Nuomo",
       "headingAr": "ابدأ **مع نمو**",
-      "headingEn": "Start **with Nomoo**",
+      "headingEn": "Start **with Nuomo**",
       "subheadingAr": "من **صورة ثابتة** إلى **تجربة حقيقية**",
       "subheadingEn": "From **static photo** to **real experience**",
       "descAr": "انضم للمتاجر التي **تعيد تعريف** تجربة الشراء عبر الإنترنت.",
