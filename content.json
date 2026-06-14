@@ -10,7 +10,7 @@
     "contact": {
       "phone": "+201550644083",
       "email": "a.sulmi24@gmail.com",
-      "website": "www.Nuomo.ai.com"
+      "website": "www.nuomo.ai"
     }
   },
   "slides": [
@@ -35,12 +35,12 @@
       "headingEn": "The problem **your store** faces",
       "subheadingAr": "**فجوة الثقة** في التسوق الإلكتروني",
       "subheadingEn": "The **trust gap** in e-commerce",
-      "descAr": " العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، أو يُرجع المشتريات، أو يذهب للمنافسين.",
-      "descEn": "Customers can't **imagine the product** before buying — they hesitate, return, or leave.",
+      "descAr": "العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، يُرجع، أو يذهب **لمنافس آخر**.",
+      "descEn": "Customers can't **imagine the product** before buying — they hesitate, return, or **go to a competitor**.",
       "challengesLabelAr": "التحديات",
       "challengesLabelEn": "Key challenges",
-      "solutionAr": "**Try It First** يحوّل **التخمين** إلى **ثقة** — ويزيد **التحويل** ويقلّ **الإرجاع**.",
-      "solutionEn": "**Try It First** turns **guesswork** into **confidence** — boosting **conversions** and cutting **returns**.",
+      "solutionAr": "يحوّل **التخمين** إلى **ثقة** — فيُكمل **المزيد من العملاء** الشراء، و**يقلّ الإرجاع**.",
+      "solutionEn": "Turns **guesswork** into **confidence** — so **more customers** complete their purchase, and **returns drop**.",
       "items": [
         { "titleAr": "تردد العميل قبل إتمام الطلب", "titleEn": "Customer hesitation at checkout" },
         { "titleAr": "ارتفاع معدلات الإرجاع والاستبدال", "titleEn": "High return and exchange rates" },
@@ -91,14 +91,14 @@
       "sectorsLabelAr": "وليس للملابس فقط — يخدم أيضاً:",
       "sectorsLabelEn": "Not just apparel — also serves:",
       "storeItems": [
-        { "titleAr": "زيادة التحويلات", "titleEn": "Higher conversions", "descAr": "المزيد من الزوار يصبحون **مشترين**.", "descEn": "More visitors become **buyers**." },
-        { "titleAr": "تقليل الإرجاع", "titleEn": "Fewer returns", "descAr": "العميل يعرف ما سيحصل عليه **مسبقاً**.", "descEn": "Customers know what they get **beforehand**." },
+        { "titleAr": "من زائر إلى مشترٍ", "titleEn": "From visitor to buyer", "descAr": "تجربة المعاينة تُحوّل **الاهتمام** إلى **طلبات حقيقية**.", "descEn": "Try-on turns **interest** into **real orders**." },
+        { "titleAr": "تقليل الإرجاع", "titleEn": "Fewer returns", "descAr": "العميل يعرف ما سيحصل عليه **قبل الدفع**.", "descEn": "Customers know what they get **before paying**." },
         { "titleAr": "تميّز تنافسي", "titleEn": "Competitive edge", "descAr": "تجربة **حديثة** لا توفرها **معظم المتاجر**.", "descEn": "A **modern** experience **most stores** lack." },
-        { "titleAr": "زيادة متوسط الطلب", "titleEn": "Higher order value", "descAr": "سهولة تجربة **منتجات إضافية**.", "descEn": "Easy to try **more products**." }
+        { "titleAr": "سلة أكبر", "titleEn": "Bigger basket", "descAr": "سهولة تجربة **منتجات إضافية** يشجّع **الشراء أكثر**.", "descEn": "Easy to try **more products** — encouraging **more purchases**." }
       ],
       "customerItems": [
-        { "titleAr": "ثقة قبل الشراء", "titleEn": "Pre-purchase confidence", "descAr": "رؤية المنتج **قبل الدفع**.", "descEn": "See the product **before paying**." },
-        { "titleAr": "تجربة تفاعلية", "titleEn": "Interactive experience", "descAr": "بدلاً من **صور ثابتة**.", "descEn": "Beyond **static photos**." }
+        { "titleAr": "ثقة قبل الشراء", "titleEn": "Pre-purchase confidence", "descAr": "يرى المنتج **على نفسه** قبل **إتمام الطلب**.", "descEn": "See the product **on yourself** before **checkout**." },
+        { "titleAr": "تجربة تفاعلية", "titleEn": "Interactive experience", "descAr": "تجربة **تفاعلية** بدلاً من **صور ثابتة**.", "descEn": "An **interactive** experience — not just **static photos**." }
       ],
       "sectors": [
         { "titleAr": "أزياء", "titleEn": "Fashion" },

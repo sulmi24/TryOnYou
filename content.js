@@ -1,16 +1,16 @@
 window.PRESENTATION_CONTENT={
   "brand": {
     "name": "نمو",
-    "nameEn": "Nomoo",
+    "nameEn": "Nuomo",
     "tagline": "نمو للابتكار الرقمي | نصنع مستقبل التجارة الرقمية",
-    "taglineEn": "Nomoo Digital Innovation | Building the Future of Digital Commerce",
+    "taglineEn": "Nuomo Digital Innovation | Building the Future of Digital Commerce",
     "copyrightAr": "© جميع الحقوق محفوظة لشركة نمو",
-    "copyrightEn": "© All rights reserved to Nomoo",
+    "copyrightEn": "© All rights reserved to Nuomo",
     "color": "8A1538",
     "contact": {
-      "phone": "+966 500 000 000",
-      "email": "info@nomoo.ai",
-      "website": "www.nomoo.ai"
+      "phone": "+201550644083",
+      "email": "a.sulmi24@gmail.com",
+      "website": "www.nuomo.ai"
     }
   },
   "slides": [
@@ -25,7 +25,7 @@ window.PRESENTATION_CONTENT={
       "subtitleAr": "جرّب المنتج **على نفسك** **قبل الشراء**",
       "subtitleEn": "Try the product **on yourself** **before you buy**",
       "descAr": "حل من **نمو** يُمكّن عملاء متجرك من رؤية المنتج **على أنفسهم** **قبل** إتمام الشراء — عبر **الذكاء الاصطناعي** و**الواقع المعزز**.",
-      "descEn": "A **Nomoo** solution that lets your customers see products **on themselves** **before** checkout — powered by **AI** and **AR**."
+      "descEn": "A **Nuomo** solution that lets your customers see products **on themselves** **before** checkout — powered by **AI** and **AR**."
     },
     {
       "id": "problem",
@@ -35,12 +35,12 @@ window.PRESENTATION_CONTENT={
       "headingEn": "The problem **your store** faces",
       "subheadingAr": "**فجوة الثقة** في التسوق الإلكتروني",
       "subheadingEn": "The **trust gap** in e-commerce",
-      "descAr": "العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، يُرجع، أو يذهب لم competitor.",
-      "descEn": "Customers can't **imagine the product** before buying — they hesitate, return, or leave.",
+      "descAr": "العميل لا يستطيع **تخيل المنتج** قبل الشراء — فيتردد، يُرجع، أو يذهب **لمنافس آخر**.",
+      "descEn": "Customers can't **imagine the product** before buying — they hesitate, return, or **go to a competitor**.",
       "challengesLabelAr": "التحديات",
       "challengesLabelEn": "Key challenges",
-      "solutionAr": "**Try It First** يحوّل **التخمين** إلى **ثقة** — ويزيد **التحويل** ويقلّ **الإرجاع**.",
-      "solutionEn": "**Try It First** turns **guesswork** into **confidence** — boosting **conversions** and cutting **returns**.",
+      "solutionAr": "يحوّل **التخمين** إلى **ثقة** — فيُكمل **المزيد من العملاء** الشراء، و**يقلّ الإرجاع**.",
+      "solutionEn": "Turns **guesswork** into **confidence** — so **more customers** complete their purchase, and **returns drop**.",
       "items": [
         {
           "titleAr": "تردد العميل قبل إتمام الطلب",
@@ -137,16 +137,16 @@ window.PRESENTATION_CONTENT={
       "sectorsLabelEn": "Not just apparel — also serves:",
       "storeItems": [
         {
-          "titleAr": "زيادة التحويلات",
-          "titleEn": "Higher conversions",
-          "descAr": "المزيد من الزوار يصبحون **مشترين**.",
-          "descEn": "More visitors become **buyers**."
+          "titleAr": "من زائر إلى مشترٍ",
+          "titleEn": "From visitor to buyer",
+          "descAr": "تجربة المعاينة تُحوّل **الاهتمام** إلى **طلبات حقيقية**.",
+          "descEn": "Try-on turns **interest** into **real orders**."
         },
         {
           "titleAr": "تقليل الإرجاع",
           "titleEn": "Fewer returns",
-          "descAr": "العميل يعرف ما سيحصل عليه **مسبقاً**.",
-          "descEn": "Customers know what they get **beforehand**."
+          "descAr": "العميل يعرف ما سيحصل عليه **قبل الدفع**.",
+          "descEn": "Customers know what they get **before paying**."
         },
         {
           "titleAr": "تميّز تنافسي",
@@ -155,24 +155,24 @@ window.PRESENTATION_CONTENT={
           "descEn": "A **modern** experience **most stores** lack."
         },
         {
-          "titleAr": "زيادة متوسط الطلب",
-          "titleEn": "Higher order value",
-          "descAr": "سهولة تجربة **منتجات إضافية**.",
-          "descEn": "Easy to try **more products**."
+          "titleAr": "سلة أكبر",
+          "titleEn": "Bigger basket",
+          "descAr": "سهولة تجربة **منتجات إضافية** يشجّع **الشراء أكثر**.",
+          "descEn": "Easy to try **more products** — encouraging **more purchases**."
         }
       ],
       "customerItems": [
         {
           "titleAr": "ثقة قبل الشراء",
           "titleEn": "Pre-purchase confidence",
-          "descAr": "رؤية المنتج **قبل الدفع**.",
-          "descEn": "See the product **before paying**."
+          "descAr": "يرى المنتج **على نفسه** قبل **إتمام الطلب**.",
+          "descEn": "See the product **on yourself** before **checkout**."
         },
         {
           "titleAr": "تجربة تفاعلية",
           "titleEn": "Interactive experience",
-          "descAr": "بدلاً من **صور ثابتة**.",
-          "descEn": "Beyond **static photos**."
+          "descAr": "تجربة **تفاعلية** بدلاً من **صور ثابتة**.",
+          "descEn": "An **interactive** experience — not just **static photos**."
         }
       ],
       "sectors": [
@@ -201,9 +201,9 @@ window.PRESENTATION_CONTENT={
     {
       "id": "cta",
       "titleAr": "ابدأ مع نمو",
-      "titleEn": "Start with Nomoo",
+      "titleEn": "Start with Nuomo",
       "headingAr": "ابدأ **مع نمو**",
-      "headingEn": "Start **with Nomoo**",
+      "headingEn": "Start **with Nuomo**",
       "subheadingAr": "من **صورة ثابتة** إلى **تجربة حقيقية**",
       "subheadingEn": "From **static photo** to **real experience**",
       "descAr": "انضم للمتاجر التي **تعيد تعريف** تجربة الشراء عبر الإنترنت.",
